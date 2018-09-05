@@ -1,0 +1,86 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-image: url(img/macbook.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+}
+
+.menu{
+    
+    color: #FFFFFF;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background: #353535;
+}
+.menu img{
+    padding-top: 20px;
+    padding-left: 70px;
+    width: 60px;
+    height: auto;
+    float: left;
+}
+.glavni{
+    
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 170px;
+    padding-top: 35px;
+}
+.centr{
+    color:#FFFFFF;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 130px;
+}
+h2{
+    color:#FFFFFF;
+    padding-bottom: 20px;
+ 
+}
+.tver{
+    padding-left: 30px;
+}
+.krasivi{
+    
+    text-align: center;
+    border: solid 2px #383838;
+    background: #383838;
+   
+    margin-left: 3px;    
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.nazvanie{
+    text-align: center;
+    margin-right: 830px;
+    border: solid 2px #383838;
+    background: #383838;
+    margin-left: 3px;    
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+a.hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.hover:hover{
+  color:#EAA008;
+  transition: 0.3s;
+ 
+}
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
